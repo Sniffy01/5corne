@@ -42,10 +42,10 @@
 //Base alpha Layer 
                 default_layer {
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LALT &kp LGUI &kp SPACE   &kp BSPC &mo NUM &mo SYM
+   &kp TAB   &kp Q     &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
+   &kp LCTRL &kp A     &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+   &trans &mt LSHIFT Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+                  &kp LALT &kp LGUI &kp SPACE   &kp BSPC &mo 1 &mo 2
                         >;
                 };
 //Number and navigation                 
@@ -61,9 +61,9 @@
 //Symbol layer
                 sym_layer {
                         bindings = <
-   &kp  TAB  &kp EXCL  &kp AT    &kp HASH   &kp DLLR   &kp PRCNT     &kp CARET &kp AMPS &kp KP_MULTIPLY &trans  &kp BSPC &trans
-   &kp LSHFT &kp MINUS &kp UNDER &kp_RPAR   &kp RBRC   &kp RBKT      &trans    &kp SCLK   &kp PAUSE_BREAK          &trans &kp PIPE &trans
-   &kp LCTRL &kp MINUS &kp PLUS  &kp_LPAR   &kp LBRC   &kp LBKT      &kp C_MUTE    &kp C_VOL_DN   &kp C_VOL_UP          &trans &kp BSLH &trans
+   &kp  TAB  &kp EXCL  &kp AT    &kp HASH   &kp DLLR   &kp PRCNT     &kp CARET  &kp AMPS     &kp KP_MULTIPLY &trans &kp BSPC &trans
+   &kp LSHFT &kp MINUS &kp UNDER &kp_RPAR   &kp RBRC   &kp RBKT      &trans     &kp SCLK     &kp PAUSE_BREAK &trans &kp PIPE &trans
+   &kp LCTRL &kp MINUS &kp PLUS  &kp_LPAR   &kp LBRC   &kp LBKT      &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP    &trans &kp BSLH &trans
                     	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
