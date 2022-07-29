@@ -13,7 +13,8 @@
 &mt {
     tapping-term-ms = <200>;
 };
-    combos {
+/{
+        combos {
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
@@ -32,10 +33,11 @@
                 bindings = <&kp RET>;
         };
 
-    };
+       };
+   };
+    
 
 / {
-    
                                       
        keymap {
                 compatible = "zmk,keymap";
@@ -54,7 +56,7 @@
    &trans  &kp ESC  &kp N7 &kp N8 &kp N9 &kp BSPC       &trans        &kp HOME &kp UP   &kp END   &kp BSPC &trans   
    &trans  &kp CAPS &kp N4 &kp N5 &kp N6 &trans         &kp PAGE_UP   &kp LEFT &kp DOWN &kp RIGHT &kp SQT   &trans 
    &trans  &trans   &kp N1 &kp N2 &kp N3 &trans         &kp PAGE_DOWN &trans   &trans   &trans    &trans   &trans 
-        &kp LGUI     &N0       &kp SPACE              &kp RET  &trans   &kp RALT
+        &kp LGUI     &kp N0       &kp SPACE              &kp RET  &trans   &kp RALT
                         >;
                 };
 
