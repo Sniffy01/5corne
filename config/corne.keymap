@@ -80,4 +80,5 @@
                   &kp LALT &kp LGUI &kp SPACE   &kp SPACE &mo 1 &tg 3
                    
         };
+    };
 };
