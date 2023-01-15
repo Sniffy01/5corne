@@ -15,7 +15,7 @@
 &mt {
     tapping-term-ms = <100>;
 };
-/ {
+/{
     macros {
         zed_em_kay: zed_em_kay {
             label = "ZM_zed_em_kay";
@@ -64,7 +64,7 @@
    };
     
 
-/ {
+/{
                                       
        keymap {
                 compatible = "zmk,keymap";
