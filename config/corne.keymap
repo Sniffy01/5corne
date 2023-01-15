@@ -58,7 +58,7 @@
         combo_undo {
         timeout-ms = <20>;
         key-positions = <26 27>;
-        bindings = <&zed_em_kay>;
+        bindings = <&kp E>;
   
        };
    };
